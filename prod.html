@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #4a90e2, #7e57c2);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin: 15px;
+            padding: 25px;
+            width: 280px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            background: #4a90e2;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 24px;
+        }
+
+        .feature-card h3 {
+            color: #333;
+            font-size: 24px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .feature-card p {
+            color: #666;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #7e57c2, #4a90e2);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .primary-button {
+            background: white;
+            color: #4a90e2;
+        }
+
+        .primary-button:hover {
+            background: #f5f5f5;
+            transform: scale(1.05);
+        }
+
+        .secondary-button {
+            border: 2px solid white;
+            color: white;
+        }
+
+        .secondary-button:hover {
+            background: rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Transform Your Business</h1>
+        <p>All-in-One Enterprise Solution</p>
+        <div>
+            <a href="#" class="button primary-button">Start Free Trial</a>
+            <a href="#" class="button secondary-button">Watch Demo</a>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+        <!-- Security Feature -->
+        <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>Secure Login</h3>
+            <p>Enterprise-grade security with multi-factor authentication and data protection.</p>
+        </div>
+
+        <!-- Billing Feature -->
+        <div class="feature-card">
+            <div class="feature-icon">💳</div>
+            <h3>Smart Billing</h3>
+            <p>Automated invoicing and payment processing with real-time tracking.</p>
+        </div>
+
+        <!-- Stock Feature -->
+        <div class="feature-card">
+            <div class="feature-icon">📦</div>
+            <h3>Stock Tracking</h3>
+            <p>Real-time inventory management with automated alerts and forecasting.</p>
+        </div>
+
+        <!-- Financial Feature -->
+        <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3>Financial Data</h3>
+            <p>Automated data entry and comprehensive financial reporting tools.</p>
+        </div>
+
+        <!-- CRM Feature -->
+        <div class="feature-card">
+            <div class="feature-icon">👥</div>
+            <h3>CRM System</h3>
+            <p>Complete customer relationship management with sales pipeline tracking.</p>
+        </div>
+
+        <!-- AI Feature -->
+        <div class="feature-card">
+            <div class="feature-icon">🤖</div>
+            <h3>AI Integration</h3>
+            <p>Smart chatbot and automated report generation powered by AI.</p>
+        </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="cta-section">
+        <h2>Ready to Transform Your Business?</h2>
+        <p>Join thousands of successful businesses using our solution</p>
+        <a href="#" class="button primary-button">Get Started Now</a>
+    </div>
+</body>
+</html>
